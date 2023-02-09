@@ -5,6 +5,8 @@ import Navbar from './Component/Navbar';
 import TextForm from './Component/TextForm';
 import React, { useState } from 'react';
 import Alert from './Component/Alert';
+import Footer from './Component/Footer';
+
 function App() {
   const [mode, setMode] = useState('light');
   const [alert, setAlert] = useState(null);
@@ -31,6 +33,11 @@ function App() {
   }
   return (
     <>
+    <div className='page-container'>
+      <div className='content-wrap'>
+
+     
+    </div>
    {/*<Navbar/>*/}
    <Navbar title="Text Converter Tool" mode={mode} toggleMode={toggleMode}/>
   <Alert alert={alert}/>
@@ -39,8 +46,9 @@ function App() {
       <TextForm showAlert={showAlert} heading = "Enter the text to analyse below " mode={mode}/> 
       <About/>
    </div>
+   </div>
   
-   
+   <Footer/>
    </>
   );
 }
