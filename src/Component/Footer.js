@@ -8,17 +8,17 @@ export default function Footer() {
           <div className="row">
             <div className="col">
             <ul className="horizontal-list">
-            <li className="seperator"><a href="https://twitter.com/NikkiKumari1506">Twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/nikki-kumari-b9b42a207
-">Linkedin</a></li>  
-            <li><a href="mailto: nkumari.work@gmail.com">Contact</a></li>
+            <li className="seperator">❤︎ Fork this on<a href="https://github.com/nikkikumari1506/Text-Conveter-Tool"> Github</a></li>
+            
+            
             </ul>
             </div>
         </div>
         <hr />
         <div className="row">
             <p className = "col-sm">
-                &copy;{new Date().getFullYear()} Text Converter Tool | All rights reserved  
+                &copy;{new Date().getFullYear()}・Text Converter Tool・All rights reserved・<a href="https://nikkikumari.notion.site/5c6e9c5d8aed42e79fc82a50b7bb8986
+">Nikki Kumari</a>
             </p>
         </div>
       </div>

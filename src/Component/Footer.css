@@ -1,5 +1,5 @@
 .main-footer{
-    color: white;
+    color: rgb(188, 217, 221);
     background-color: #212529;
     padding-top:3em;
     position: relative;
@@ -9,17 +9,20 @@
 }
 ul.horizontal-list li {
     display: inline-block;
-    border-right: 1px solid rgb(242, 240, 240);
-    min-width: 12rem;
-  text-align: center;
-  
+   
+    padding: 0 0.5rem;
+ 
   }
 .seperator{
-    border-left: 1px solid rgb(243, 234, 234);
-    color: white;
+  display:inline-block;
+    color: rgb(188, 217, 221);
+  
+    
+   
 }
 
 a {
-    color: white;
+    color: rgb(150, 195, 225);
     text-decoration: none;
   }
+ 
